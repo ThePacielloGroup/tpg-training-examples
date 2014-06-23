@@ -1,0 +1,150 @@
+.offscrn {
+    @include offscreen;
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.layout-center {
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    border-bottom: 1px solid;
+}
+
+.highlight {
+    background: #ffc;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.noindent {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nobullet {
+    list-style: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.wrap, pre {
+    white-space: pre-wrap; /* css-3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.no_wrap {
+    white-space: nowrap;
+}
+
+.skiplink {
+    @include offscreen;
+}
+
+.skiplink:hover, .skiplink:focus {
+    clip: auto;
+    height: auto;
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    z-index: 1;
+    text-align: center;
+    background-color: #FAFDAD;
+    color: #474777;
+    margin: 11px 20%;
+    border: 1px solid #FFA300;
+}
+
+.dl-sidebyside dt {
+    float: left;
+    clear: left;
+    width: 4.5em;
+}
+
+.dl-sidebyside dd {
+    white-space: nowrap;
+}
+
+.note{
+    border: 2px solid $tpg-blue;
+    @include border-radius(10px);
+    background-color: $border-and-accent-color;
+    padding: .75em;
+}

@@ -1,0 +1,54 @@
+{
+    "name": "tpg-training-examples",
+    "version": "0.0.1",
+    "description": "various examples for use in training held by TPG",
+    "title": "tpg-training-examples",
+    "keywords": [
+        "accessibility, html, css, javascript, wai-aria"
+    ],
+    "homepage": "http://www.paciellogroup.com",
+    "bugs": {
+        "url": "https://github.com/ThePacielloGroup/tpg-training-examples/issues"
+    },
+    "contributors": [
+        {
+            "name": "Karl Groves",
+            "email": "kgroves@paciellogroup.com"
+        }
+    ],
+    "author": {
+        "name": "Karl Groves",
+        "email": "kgroves@paciellogroup.com",
+        "url": "http://www.paciellogroup.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ThePacielloGroup/tpg-training-examples.git"
+    },
+    "dependencies": {
+        "time-grunt": "~0.3.1"
+    },
+
+    "devDependencies": {
+        "grunt": "~0.4.4",
+        "grunt-contrib-jshint": "~0.10.0",
+        "grunt-contrib-clean": "~0.5.0",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-contrib-concat": "~0.4.0",
+        "grunt-contrib-copy": "~0.5.0",
+        "grunt-contrib-sass": "~0.7.3",
+        "grunt-bower-install": "~1.4.0",
+        "grunt-banner": "~0.2.2",
+        "grunt-jsonlint": "~1.0.4",
+        "load-grunt-tasks": "~0.4.0",
+        "grunt-jscs-checker": "~0.4.1"
+    },
+
+    "licenses": [
+        {
+            "type": "CC-by-nc-sa",
+            "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+        }
+    ],
+    "readmeFilename": "README.md"
+}
